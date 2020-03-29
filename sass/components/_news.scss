@@ -1,0 +1,55 @@
+.news {
+    h2 {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    p {
+        text-align: center;
+        color: darkgray;
+    }
+
+    hr {
+        border: 2px solid #03a9f5;
+        width: 50px;
+    }
+
+    .card {
+        @media(max-width: 500px) {
+            width: 100%;
+        }
+
+        width: 30%;
+
+    }
+
+    i {
+        right: 5%;
+        top: 55%;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: rgb(3, 169, 254);
+        text-align: center;
+        padding-top: 11px;
+        transition: 0.2s;
+        cursor: pointer;
+
+    }
+
+
+    i:hover {
+        background-color: red;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+    }
+}

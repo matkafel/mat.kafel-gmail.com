@@ -1,0 +1,46 @@
+.gradient {
+    background-color: #4285F4;
+
+    @media(min-width: 760px) {
+        background: linear-gradient(to right, #4285F4 50%, #03a9f5 50%);
+    }
+}
+
+.offer {
+    width: 100%;
+
+    .item {
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: uppercase;
+
+        @media(min-width: 760px) {
+            width: 16.6%;
+            font-size: .8rem;
+        }
+
+
+        i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+
+            @media(min-width: 760px) {
+                font-size: 2rem;
+                margin-bottom: .5rem;
+            }
+
+        }
+    }
+
+    .item:nth-child(even) {
+        background-color: #03a9f5;
+    }
+
+    .item:nth-child(odd) {
+        background-color: #4285F4;
+    }
+
+
+}

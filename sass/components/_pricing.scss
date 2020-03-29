@@ -1,0 +1,47 @@
+.pricing {
+    margin-bottom: 5rem;
+
+    .head {
+        h2 {
+            text-align: center;
+            font-weight: 500;
+        }
+
+        p {
+            text-align: center;
+            color: darkgray;
+        }
+
+        hr {
+            border: 2px solid #03a9f5;
+            width: 50px;
+        }
+    }
+
+
+
+    .pricing-card {
+        transition: .2s;
+    }
+
+    .pricing-card:hover {
+        transform: scale(1.2);
+        z-index: 1;
+
+        hr {
+            background-color: red;
+        }
+
+        button {
+            background-color: red;
+        }
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    p {
+        text-transform: uppercase;
+    }
+}

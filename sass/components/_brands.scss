@@ -1,0 +1,37 @@
+.brands {
+    overflow: hidden;
+    position: relative;
+
+
+    .fa-angle-right {
+        right: 0;
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .fa-angle-left {
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    i {
+        width: 30px;
+        height: 30px;
+        font-size: 1.1rem;
+        border-radius: 50%;
+        color: white;
+        background-color: #1976d2;
+        text-align: center;
+        padding-top: 6px;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+
+    i:hover {
+        background-color: red;
+    }
+}
