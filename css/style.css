@@ -88,7 +88,7 @@
 }
 
 .card-image {
-  background-image: url("/img/header.jpg");
+  background-image: url("../img/header.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@
 .card .btn:hover {
   background-color: red;
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .gradient {
@@ -211,7 +211,7 @@ video {
   padding: 0;
   width: 100%;
   -webkit-filter: brightness(40%);
-          filter: brightness(40%);
+  filter: brightness(40%);
 }
 
 .portfolio h2 {
@@ -241,7 +241,7 @@ video {
   width: 100%;
   height: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,7 +363,7 @@ video {
   transition: 0.2s;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .portfolio .btn i {
@@ -532,7 +532,7 @@ video {
   position: absolute;
   top: 50%;
   -webkit-transform: translatey(-50%);
-          transform: translatey(-50%);
+  transform: translatey(-50%);
 }
 
 .brands .fa-angle-left {
@@ -540,7 +540,7 @@ video {
   position: absolute;
   top: 50%;
   -webkit-transform: translatey(-50%);
-          transform: translatey(-50%);
+  transform: translatey(-50%);
 }
 
 .brands i {
@@ -587,7 +587,7 @@ video {
 
 .pricing .pricing-card:hover {
   -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
   z-index: 1;
 }
 
@@ -703,4 +703,5 @@ video {
   background-color: red;
   color: white;
 }
+
 /*# sourceMappingURL=style.css.map */
