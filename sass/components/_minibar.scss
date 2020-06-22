@@ -1,23 +1,13 @@
 .minibar {
+  p {
+    color: white;
+  }
 
-    p {
-        color: white;
+  .fab {
+    font-size: 1.5rem;
+  }
 
-    }
-
-    .fab {
-        font-size: 1.5rem;
-    }
-
-    i {
-        color: white;
-
-    }
-
-    /*   i:hover {
-        color: #ee5456;
-        background-color: white;
-        transform: scale(1.5);
-
-    } */
+  i {
+    color: white;
+  }
 }
